@@ -1,4 +1,4 @@
-# `Vue`+`VueRouter`+`Vuex`+`Axios`制作饿了么移动端页面
+# `Vue`+`VueRouter`+`Vuex`+`Axios`+`Vant-ui`制作饿了么移动端页面
 
 ## Project setup
 ```
