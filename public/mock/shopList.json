@@ -1,0 +1,384 @@
+[
+  {
+    "id": 1,
+    "shopImg": "../images/ebf5ad5007920ed2fa8a8874806d2png.webp",
+    "isBrand": false,
+    "shopTit": "佐一岚·海鲜焖饭·炒饭·粥品(世贸店)",
+    "score": 4.7,
+    "sale": 10546,
+    "isHummingbird": false,
+    "startPri": 10,
+    "deliveryPri": 0.5,
+    "distance": 2.68,
+    "time": 40,
+    "tags": {
+      "list": [
+        "炒饭",
+        "支持自取",
+        "品质联盟"
+      ],
+      "isSole": false,
+      "isPopularity": false
+    },
+    "activity": [
+      {
+        "isShow": true,
+        "icon": "jian",
+        "txt": "减",
+        "des": "满25减15，满45减25，满75减35，满100减45"
+      },
+      {
+        "isShow": true,
+        "icon": "zeng",
+        "txt": "赠",
+        "des": "满25元赠送一口肠一枚1份"
+      },
+      {
+        "isShow": false,
+        "icon": "shou",
+        "txt": "首",
+        "des": "新用户下单立减11元"
+      },
+      {
+        "isShow": false,
+        "icon": "te",
+        "txt": "特",
+        "des": "特价商品0.01元起"
+      },
+      {
+        "isShow": false,
+        "icon": "bao",
+        "txt": "保",
+        "des": "该商户食品安全已由国泰产险承担，食品安全有保障"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "shopImg": "../images/d3681cf5b588a148e81691e3ebc3dpng.webp",
+    "isBrand": true,
+    "shopTit": "星巴克专星送",
+    "score": 4.8,
+    "sale": 163,
+    "isHummingbird": true,
+    "startPri": 20,
+    "deliveryPri": 6,
+    "distance": 1.43,
+    "time": 30,
+    "tags": {
+      "list": [
+        "咖啡"
+      ],
+      "isSole": true,
+      "isPopularity": true
+    },
+    "activity": [
+      {
+        "isShow": true,
+        "icon": "shou",
+        "txt": "首",
+        "des": "饿了么新用户首单立减17元"
+      },
+      {
+        "isShow": true,
+        "icon": "jian",
+        "txt": "减",
+        "des": "满70元减6元，满100元减15元，满140元减20元"
+      },
+      {
+        "isShow": false,
+        "icon": "pei",
+        "txt": "配",
+        "des": "配送费立减3元"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "shopImg": "../images/d00526058434c2a0beb75d7ede514png.webp",
+    "isBrand": false,
+    "shopTit": "李庄白肉",
+    "score": 4.1,
+    "sale": 2602,
+    "isHummingbird": true,
+    "startPri": 15,
+    "deliveryPri": 0,
+    "distance": 1.99,
+    "time": 30,
+    "tags": {
+      "list": [
+        "川湘菜"
+      ],
+      "isSole": false,
+      "isPopularity": false
+    },
+    "activity": [
+      {
+        "isShow": true,
+        "icon": "shou",
+        "txt": "首",
+        "des": "饿了么新用户首单立减12元"
+      },
+      {
+        "isShow": true,
+        "icon": "jian",
+        "txt": "减",
+        "des": "满6元减5元，满38元减15元，满68元减25元，满98元减31元，满138元减41元"
+      },
+      {
+        "isShow": false,
+        "icon": "pei",
+        "txt": "配",
+        "des": "配送费立减3.5元"
+      },
+      {
+        "isShow": false,
+        "icon": "xin",
+        "txt": "新",
+        "des": "首次光顾本店立减1元"
+      },
+      {
+        "isShow": false,
+        "icon": "te",
+        "txt": "特",
+        "des": "特价商品6.8元起"
+      },
+      {
+        "isShow": false,
+        "icon": "zhe",
+        "txt": "折",
+        "des": "折扣商品4.3折起"
+      },
+      {
+        "isShow": false,
+        "icon": "bao",
+        "txt": "保",
+        "des": "该商户食品安全已由国泰产险承担，食品安全有保障"
+      },
+      {
+        "isShow": false,
+        "icon": "piao",
+        "txt": "票",
+        "des": "该商家支持开发票，请在下单时填写好发票抬头"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "shopImg": "../images/48a777a6b444dc317cc24d101220cjpeg.webp",
+    "isBrand": true,
+    "shopTit": "肯德基宅急送(府青店)",
+    "score": 4.7,
+    "sale": 912,
+    "isHummingbird": false,
+    "startPri": 0,
+    "deliveryPri": 9,
+    "distance": 1.35,
+    "time": 40,
+    "tags": {
+      "list": [
+        "汉堡薯条"
+      ],
+      "isSole": false,
+      "isPopularity": false
+    },
+    "activity": [
+      {
+        "isShow": true,
+        "icon": "shou",
+        "txt": "首",
+        "des": "饿了么新用户首单立减17元"
+      },
+      {
+        "isShow": true,
+        "icon": "te",
+        "txt": "特",
+        "des": "特价商品8元起"
+      },
+      {
+        "isShow": false,
+        "icon": "zhe",
+        "txt": "折",
+        "des": "折扣商品5折起"
+      },
+      {
+        "isShow": false,
+        "icon": "piao",
+        "txt": "票",
+        "des": "该商家支持开发票，请在下单时填写好发票抬头"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "shopImg": "../images/bd8ce7262ab520229758599d9024cjpeg.webp",
+    "isBrand": true,
+    "shopTit": "七十一号豆汤饭(汇富店)",
+    "score": 4.7,
+    "sale": 2771,
+    "isHummingbird": true,
+    "startPri": 20,
+    "deliveryPri": 0.5,
+    "distance": 2.74,
+    "time": 30,
+    "tags": {
+      "list": [
+        "其他快餐"
+      ],
+      "isSole": false,
+      "isPopularity": false
+    },
+    "activity": [
+      {
+        "isShow": true,
+        "icon": "shou",
+        "txt": "首",
+        "des": "饿了么新用户首单立减11元"
+      },
+      {
+        "isShow": true,
+        "icon": "jian",
+        "txt": "减",
+        "des": "满30元减11元，满40元减16元，满60元减25元"
+      },
+      {
+        "isShow": false,
+        "icon": "pei",
+        "txt": "配",
+        "des": "配送费立减4元"
+      },
+      {
+        "isShow": false,
+        "icon": "zeng",
+        "txt": "赠",
+        "des": "满27元赠送随机小惊喜1份"
+      },
+      {
+        "isShow": false,
+        "icon": "te",
+        "txt": "特",
+        "des": "特价商品1.99元起"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "shopImg": "../images/d3681cf5b588a148e81691e3ebc3dpng.webp",
+    "isBrand": true,
+    "shopTit": "星巴克专星送6",
+    "score": 4.8,
+    "sale": 163,
+    "isHummingbird": true,
+    "startPri": 20,
+    "deliveryPri": 6,
+    "distance": 1.43,
+    "time": 30,
+    "tags": {
+      "list": [
+        "咖啡"
+      ],
+      "isSole": true,
+      "isPopularity": true
+    },
+    "activity": [
+      {
+        "isShow": true,
+        "icon": "shou",
+        "txt": "首",
+        "des": "饿了么新用户首单立减17元"
+      },
+      {
+        "isShow": true,
+        "icon": "jian",
+        "txt": "减",
+        "des": "满70元减6元，满100元减15元，满140元减20元"
+      },
+      {
+        "isShow": false,
+        "icon": "pei",
+        "txt": "配",
+        "des": "配送费立减3元"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "shopImg": "../images/d3681cf5b588a148e81691e3ebc3dpng.webp",
+    "isBrand": true,
+    "shopTit": "星巴克专星送7",
+    "score": 4.8,
+    "sale": 163,
+    "isHummingbird": true,
+    "startPri": 20,
+    "deliveryPri": 6,
+    "distance": 1.43,
+    "time": 30,
+    "tags": {
+      "list": [
+        "咖啡"
+      ],
+      "isSole": true,
+      "isPopularity": true
+    },
+    "activity": [
+      {
+        "isShow": true,
+        "icon": "shou",
+        "txt": "首",
+        "des": "饿了么新用户首单立减17元"
+      },
+      {
+        "isShow": true,
+        "icon": "jian",
+        "txt": "减",
+        "des": "满70元减6元，满100元减15元，满140元减20元"
+      },
+      {
+        "isShow": false,
+        "icon": "pei",
+        "txt": "配",
+        "des": "配送费立减3元"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "shopImg": "../images/d3681cf5b588a148e81691e3ebc3dpng.webp",
+    "isBrand": true,
+    "shopTit": "星巴克专星送8",
+    "score": 4.8,
+    "sale": 163,
+    "isHummingbird": true,
+    "startPri": 20,
+    "deliveryPri": 6,
+    "distance": 1.43,
+    "time": 30,
+    "tags": {
+      "list": [
+        "咖啡"
+      ],
+      "isSole": true,
+      "isPopularity": true
+    },
+    "activity": [
+      {
+        "isShow": true,
+        "icon": "shou",
+        "txt": "首",
+        "des": "饿了么新用户首单立减17元"
+      },
+      {
+        "isShow": true,
+        "icon": "jian",
+        "txt": "减",
+        "des": "满70元减6元，满100元减15元，满140元减20元"
+      },
+      {
+        "isShow": false,
+        "icon": "pei",
+        "txt": "配",
+        "des": "配送费立减3元"
+      }
+    ]
+  }
+]

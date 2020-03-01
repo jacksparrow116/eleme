@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <meta name="keywords" content="关键词">
+        <meta name="description" content="描述">
+        <meta name="author" content="作者">
+        <style>
+            body{font-family: "Microsoft YaHei",serif;}
+            body,dl,dd,p,h1,h2,h3,h4,h5,h6{margin:0;}
+            ol,ul,li{margin:0;padding:0;list-style:none;}
+            img{border:none;}
+            #app{
+                position: relative;
+                display: flex;
+                height: 600px;
+                width: 400px;
+                margin: 50px auto;
+            }
+            .hide{
+                height: 100%;
+                width: 20vw;
+                border: 1px solid #f60;
+            }
+            .aaa{
+                overflow-y: scroll;
+                width: 120%;
+                height: 100%;
+                background-color: #b9fcff;
+            }
+            .aaa>li{
+                height: 50px;
+                outline: 1px solid #afcaff;
+            }
+            .bbb{
+                overflow-x: hidden;
+                overflow-y: scroll;
+                /*padding-right: 10px;*/
+                width: 80vw;
+                background-color: #ffdfce;
+            }
+            .bbb>li{
+                height: 200px;
+                outline: 1px solid #ff91d8;
+            }
+            .active{
+                background-color: #57ff2e;
+            }
+
+
+            .box {
+                width: 280px;
+                height: 100px;
+                overflow: hidden;
+                border: 1px solid #ccc;
+            }
+            .scroll-box {
+                width: 300px;
+                height: 100px;
+                overflow-y: scroll;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="app">
+            <div class="hide">
+                <ul class="aaa">
+                    <li class="active">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>8</li>
+                    <li>8</li>
+                </ul>
+            </div>
+            <ul class="bbb">
+                <li>111</li>
+                <li>222</li>
+                <li>333</li>
+                <li>444</li>
+                <li>555</li>
+                <li>666</li>
+                <li>777</li>
+                <li>222</li>
+                <li>333</li>
+                <li>444</li>
+                <li>555</li>
+                <li>666</li>
+                <li>777</li>
+                <li>888</li>
+                <li>888</li>
+                <li>888</li>
+            </ul>
+        </div>
+
+        <div class="box">
+            <div class="scroll-box">
+                <ul class="scroll">
+                    <li>章鱼不丸子</li>
+                    <li>章鱼不丸子</li>
+                    <li>章鱼不丸子</li>
+                    <li>章鱼不丸子</li>
+                    <li>章鱼不丸子</li>
+                    <li>章鱼不丸子</li>
+                    <li>章鱼不丸子</li>
+                    <li>章鱼不丸子</li>
+                    <li>章鱼不丸子</li>
+                    <li>章鱼不丸子</li>
+                    <li>章鱼不丸子</li>
+                    <li>章鱼不丸子</li>
+                    <li>章鱼不丸子</li>
+                </ul>
+            </div>
+        </div>
+        
+        <script>
+            let ali = document.querySelectorAll('.aaa>li');
+            let b = document.querySelector('.bbb');
+            let bli = document.querySelectorAll('.bbb>li');
+            let arr = [];
+            let lastIdx = 0;
+
+            ali.forEach((e,i)=>{
+                e.onclick = function () {
+                    console.log(bli[i].offsetTop);
+                    b.scrollTo({
+                        top: bli[i].offsetTop,
+                        behavior: 'smooth'
+                    })
+                }
+            })
+
+            bli.forEach((e)=>{
+                arr.push(e.offsetTop)
+            })
+            b.onscroll = function () {
+                console.log(b.scrollTop);
+                for (let i = 0; i < arr.length; i++) {
+                    if( b.scrollTop >= arr[i] ){
+                        ali[lastIdx].classList.remove('active');
+                        ali[i].classList.add('active');
+                        lastIdx = i;
+                    }
+                }
+            }
+
+            // function fn(){
+            //     b.scrollTop ++
+            //     requestAnimationFrame(fn)
+            // }
+            // requestAnimationFrame(fn)
+
+
+
+        </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
